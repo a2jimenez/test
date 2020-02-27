@@ -1,11 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 import SEO from "../components/seo"
-import Footer from "../components/footer"
-import Header1 from "../components/header-1"
+import Layout from "../components/layout"
 
 const ContactPage = () => (
-    <Layout>
+  <Layout>
     <SEO title="Contact us" />
     <h1>This is the contact page</h1>
     <p>Welcome to contact page</p>
@@ -16,7 +15,7 @@ const ContactPage = () => (
       </a>
     </p>
     <Link to="/">Go back to the homepage</Link>
-    <Layout>
+  </Layout>
 )
 
 export default ContactPage
